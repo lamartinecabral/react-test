@@ -1,0 +1,39 @@
+.App .Cards{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.App .Header{
+	background: #f46b45;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.App .Header .Title{
+	font-size: xxx-large;
+	font-weight: bold;
+	padding: 1rem;
+	color: white;
+}
+
+.App .Header .Center{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 0 1em;
+	margin: 0.25em;
+}
+
+.App .Header .Center>*{
+	margin: 0.25em;
+}
+
+button,select{
+	font-family: monospace;
+}

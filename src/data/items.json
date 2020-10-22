@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"brand": "Bauducco",
+		"name": "Panetone de Chocolate Chocottone 500g",
+		"price": 12.34,
+		"thumb": "https://images.tcdn.com.br/img/img_prod/746520/panetone_de_chocolate_chocottone_500g_bauducco_5730376_1_20200127162003.jpg",
+		"description": "Utilizando receita original italiana e produzido de forma semi-artesanal, com ingredientes puros e selecionados e fermentação natural, o Panetone Veneza tem o sabor e a textura do legítimo panetone. Ideal para saborear, presentear, e também uma ótima opção para rechear."
+	},
+	{
+		"id": 2,
+		"brand": "Visconti",
+		"name": "Panetone Tradicional 400g",
+		"price": 12.34,
+		"thumb": "https://images.tcdn.com.br/img/img_prod/746520/panetone_tradicional_visconti_400g_5792191_1_20200911163606.jpg",
+		"description": "Utilizando receita original italiana e produzido de forma semi-artesanal, com ingredientes puros e selecionados e fermentação natural, o Panetone Veneza tem o sabor e a textura do legítimo panetone. Ideal para saborear, presentear, e também uma ótima opção para rechear."
+	},
+	{
+		"id": 3,
+		"brand": "Visconti",
+		"name": "Panetone Mais Chocolate 450g",
+		"price": 12.34,
+		"thumb": "https://images.tcdn.com.br/img/img_prod/746520/panetone_mais_chocolate_450g_visconti_5792189_1_20200911161032.jpg",
+		"description": "Utilizando receita original italiana e produzido de forma semi-artesanal, com ingredientes puros e selecionados e fermentação natural, o Panetone Veneza tem o sabor e a textura do legítimo panetone. Ideal para saborear, presentear, e também uma ótima opção para rechear."
+	},
+	{
+		"id": 4,
+		"brand": "Bauducco",
+		"name": "Panetone Com Frutas 500g",
+		"price": 12.34,
+		"thumb": "https://images.tcdn.com.br/img/img_prod/746520/panetone_com_frutas_500g_bauducco_5730272_1_20200911105717.jpg",
+		"description": "Utilizando receita original italiana e produzido de forma semi-artesanal, com ingredientes puros e selecionados e fermentação natural, o Panetone Veneza tem o sabor e a textura do legítimo panetone. Ideal para saborear, presentear, e também uma ótima opção para rechear."
+	},
+	{
+		"id": 5,
+		"brand": "Tommy",
+		"name": "Panetone Com Frutas 400g",
+		"price": 12.34,
+		"thumb": "https://images.tcdn.com.br/img/img_prod/746520/panettone_tommy_frutas_400g_5792163_1_20200911115943.jpg",
+		"description": "Utilizando receita original italiana e produzido de forma semi-artesanal, com ingredientes puros e selecionados e fermentação natural, o Panetone Veneza tem o sabor e a textura do legítimo panetone. Ideal para saborear, presentear, e também uma ótima opção para rechear."
+	},
+	{
+		"id": 6,
+		"brand": "Tommy",
+		"name": "Panetone Com gotas de chocolate 400g",
+		"price": 12.34,
+		"thumb": "https://images.tcdn.com.br/img/img_prod/746520/panetone_com_gotas_de_chocolate_tommy_400g_5792177_1_20200911135028.jpg",
+		"description": "Utilizando receita original italiana e produzido de forma semi-artesanal, com ingredientes puros e selecionados e fermentação natural, o Panetone Veneza tem o sabor e a textura do legítimo panetone. Ideal para saborear, presentear, e também uma ótima opção para rechear."
+	},
+	{
+		"id": 7,
+		"brand": "Marca 7",
+		"name": "Panetone 7",
+		"price": 12.34,
+		"thumb": "https://img.itdg.com.br/images/recipes/000/081/011/329186/329186_original.jpg",
+		"description": "Utilizando receita original italiana e produzido de forma semi-artesanal, com ingredientes puros e selecionados e fermentação natural, o Panetone Veneza tem o sabor e a textura do legítimo panetone. Ideal para saborear, presentear, e também uma ótima opção para rechear."
+	},
+	{
+		"id": 8,
+		"brand": "Marca 8",
+		"name": "Panetone 8",
+		"price": 12.34,
+		"thumb": "https://img.itdg.com.br/images/recipes/000/081/011/329186/329186_original.jpg",
+		"description": "Utilizando receita original italiana e produzido de forma semi-artesanal, com ingredientes puros e selecionados e fermentação natural, o Panetone Veneza tem o sabor e a textura do legítimo panetone. Ideal para saborear, presentear, e também uma ótima opção para rechear."
+	},
+	{
+		"id": 9,
+		"brand": "Marca 9",
+		"name": "Panetone 9",
+		"price": 12.34,
+		"thumb": "https://img.itdg.com.br/images/recipes/000/081/011/329186/329186_original.jpg",
+		"description": "Utilizando receita original italiana e produzido de forma semi-artesanal, com ingredientes puros e selecionados e fermentação natural, o Panetone Veneza tem o sabor e a textura do legítimo panetone. Ideal para saborear, presentear, e também uma ótima opção para rechear."
+	}
+]

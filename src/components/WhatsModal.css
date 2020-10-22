@@ -1,0 +1,24 @@
+.Whats{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 2em auto;
+	width: fit-content;
+}
+
+.Whats .Content{
+	max-width: 30em;
+	background: white;
+	padding: 2em;
+	max-height: calc(100vh - 8em);
+	overflow-y: scroll;
+}
+
+.Whats p{
+	text-align: justify;
+}
+
+.Whats img{
+	width: 100%;
+}
