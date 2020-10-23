@@ -1,5 +1,22 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Download & Try it
+
+Run in terminal/cmd:
+
+```
+git clone https://github.com/lamartinecabral/react-test.git
+cd react-test
+npm install
+npm start
+```
+
+## About
+
+The project is a simple Panettone Catalog.
+
+Other than the packages included by Create React App, I also included [Material-UI](https://material-ui.com/) for use of modal and responsive grid.
+
 ## Available Scripts
 
 In the project directory, you can run:
