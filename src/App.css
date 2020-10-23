@@ -3,6 +3,14 @@
 	flex-wrap: wrap;
 }
 
+.App .Loading{
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 .App .Header{
 	background: #f46b45;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to bottom, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */

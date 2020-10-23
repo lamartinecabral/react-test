@@ -4,19 +4,25 @@ import items from './data/items.json';
 import Card from './components/Card';
 import Filter from './components/Filter';
 import WhatsModal from './components/WhatsModal';
-import { Grid } from '@material-ui/core';
+import { Grid, CircularProgress } from '@material-ui/core';
 
 export default props=>{
 	
+	const [itemList,setItemList] = useState(undefined);
+	//simulacao de resposta assincrona
+	setTimeout(()=>setItemList(items), 2000);
+	const isReady = ()=>{return !!itemList;}
+
 	const [whatsPan, setWhatsPan] = useState(false);
 	const toggleWhats = ()=>setWhatsPan(!whatsPan);
 	
 	const [filter, setFilter] = useState("Todas");
 	const filteredItems = ()=>{
-		if(filter === "Todas") return items;
-		return items.filter(e => e.brand === filter);
+		if(!isReady()) return [];
+		if(filter === "Todas") return itemList;
+		return itemList.filter(e => e.brand === filter);
 	}
-
+	
 	return (<>
 		<div className="App">
 			<div className="Header">
@@ -33,7 +39,7 @@ export default props=>{
 					uniques = [...mySet]; // resultado: [3,2,1,4]
 					*/}
 					<Filter
-						brands={[...(new Set(items.map(e=>e.brand)))]}
+						brands={isReady() ? [...(new Set(itemList.map(e=>e.brand)))] : []}
 						change={x=>setFilter(x)}
 					></Filter>
 					
@@ -41,13 +47,16 @@ export default props=>{
 			</div>
 			
 			<div style={{padding: "0.5em"}}>
-				<Grid container>
-					{filteredItems().map(e =>
-						<Grid key={e.id} item xs={12} sm={6} lg={4}>
-							<Card item={e} />
-						</Grid>
-					)}
-				</Grid>
+				{ isReady() ? 
+					<Grid container>
+						{filteredItems().map(e =>
+							<Grid key={e.id} item xs={12} sm={6} lg={4}>
+								<Card item={e} />
+							</Grid>
+						)}
+					</Grid>
+					: <div className="Loading"><CircularProgress /></div>
+				}
 			</div>
 			
 		</div>
